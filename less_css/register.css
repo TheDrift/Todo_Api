@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(36, 35, 35);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth_card{
+  box-shadow: 0 0 10px rgb(191, 184, 184);
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+  border-radius: 10px;
+  width: 400px;
+  height: 350px;
+}
+.h_reg{
+  padding-bottom: 8%;
+  cursor: pointer;
+  transition: .5s;
+  text-shadow: 0 0 5px whitesmoke;
+}
+.h_reg:hover{
+  color: darkblue;
+  text-shadow: 0 0 5px darkblue;
+}
+.card div input{
+  color: rgb(128, 2, 124);
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background: #f3f3f3;
+  outline: none;
+}
+.btn_submit{
+  margin-top: 8%;
+  width: 265px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  background: black;
+  color: whitesmoke;
+  transition: .5s;
+}
+.btn_submit:hover{
+  color: whitesmoke;
+  border: 1px solid rgb(94, 93, 94) ;
+  background: darkblue;
+}
+.href_p{
+  text-align: center;
+  color: darkblue;
+  cursor: pointer;
+  transition: .5s;
+}
+.href_p:hover{
+  color: white;
+  text-decoration: underline;
+}
